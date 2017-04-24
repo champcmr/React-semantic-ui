@@ -12,8 +12,11 @@ export default function configureStore(initialState) {
     thunkMiddleware,
   ];
 
-  return createStore(rootReducer, initialState, composeWithDevTools(
-    applyMiddleware(...middewares)
+  return createStore(
+    rootReducer, 
+    initialState, 
+    composeWithDevTools(
+      applyMiddleware(...middewares)
     )
   );
 }

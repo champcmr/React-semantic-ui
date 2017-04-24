@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import AddMember from '../../components/members/addMember.component';
+import AddMember from '../../components-semantic/members/addMember.component';
 import * as memberAction from '../../actions/memberAction';
 
 

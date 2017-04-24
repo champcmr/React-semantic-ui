@@ -70,7 +70,7 @@ export const saveMember = (formData) =>{
 }
 
 
-export const deleteMember = (memberObj) =>{
+export const deleteMember = (memberObj) =>{ 
   return(dispatch) => {
       return fetch(apiUrl + '/api/delete-member/'+memberObj._id,{
           method:'DELETE'

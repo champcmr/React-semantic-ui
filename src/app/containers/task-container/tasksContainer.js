@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import Tasks from '../../components/tasks/tasks.component';
+import Tasks from '../../components-semantic/tasks/tasks.component';
 import * as taskAction from '../../actions/taskAction';
 
 
